@@ -1,3 +1,5 @@
-# Tiny Tapir
-## Aysnchronous UI automation wrapper for selenium
+***********
+Tiny Tapir
+***********
+*Aysnchronous UI automation wrapper for selenium*
 
