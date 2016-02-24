@@ -40,8 +40,6 @@ setup(
     keywords='selenium aysnc aysnchronous angular react',
     packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
     install_requires=['selenium'],
-    extras_require={
-        'dev': ['check-manifest'],
-        'test': ['coverage'],
-    },
+    test_suite='nose.collector',
+    tests_require=['coverage', 'nose']
 )
