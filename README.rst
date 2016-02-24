@@ -6,6 +6,8 @@ Tiny Tapir
 Tiny tapir is a light selenium wrapper that handles apps with asynchronous called. It is inspired by Capybara.
 
 To run tests:
-code-block:: bash
+
+.. code-block:: bash
+
     pip install -r requirements.txt
     nosetests
