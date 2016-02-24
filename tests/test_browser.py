@@ -7,7 +7,7 @@ from tests.angular_page import AngularPage
 class BrowserTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.browser = tiny_tapir.Browser()
+        cls.browser = tiny_tapir.Browser(browser_name='firefox')
         cls.browser.get('https://www.angularjs.org/')
 
     def test_clear(self):
