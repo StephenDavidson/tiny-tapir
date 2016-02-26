@@ -4,6 +4,7 @@ from tests.angular_page import AngularPage
 
 
 class BrowserTest(unittest.TestCase):
+    # Disabled for CI
     def _chrome(self):
         b = Browser(name='chrome')
         b.driver.get('https://www.angularjs.org/')

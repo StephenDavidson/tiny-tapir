@@ -4,13 +4,13 @@
  to include asynchronous use cases.
 """
 from selenium.common.exceptions import NoSuchElementException, TimeoutException, WebDriverException
-from waits import Waits
+from .waits import Waits
 import time
 
 
 class Actions(object):
     """
-    :param driver: Selenium webdriver
+    :param driver: Selenium webdriver object
     """
     def __init__(self, driver):
         self._driver = driver

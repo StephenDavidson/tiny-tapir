@@ -1,7 +1,6 @@
 # pylint: disable=E1002
 """
- Browser class, that wraps selenium functionality and extends it
- to include asynchronous use cases.
+ Browser class that returns a tiny tapir browser given a browser name
 """
 from selenium import webdriver
 from tiny_tapir.actions import Actions
